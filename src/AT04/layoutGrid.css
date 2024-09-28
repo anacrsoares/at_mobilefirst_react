@@ -22,7 +22,7 @@
 
 .global-menu {
   grid-area: globalmenu;
-  background-color: #333;
+  background-color: #565656;
   color: white;
   padding: 20px;
   text-align: center;
@@ -33,11 +33,14 @@
   background-color: #f4f4f4;
   padding: 20px;
   text-align: center;
+  color: #888;
 }
 
 .main-content {
   grid-area: maincontent;
   background-color: #fff;
+  color: #888;
+  text-align: center;
   padding: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,6 +50,7 @@
   background-color: #eaeaea;
   padding: 20px;
   text-align: center;
+  color: #333;
 }
 
 .footer {

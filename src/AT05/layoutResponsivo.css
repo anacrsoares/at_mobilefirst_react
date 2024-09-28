@@ -1,0 +1,33 @@
+.container-responsivo {
+  display: grid;
+  grid-template-areas:
+    "globalmenu globalmenu header"
+    "contextmenu contextmenu contextmenu"
+    "maincontent maincontent maincontent"
+    "adarea adarea adarea"
+    "footer footer footer";
+
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto 2fr 1fr auto;
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .container-responsivo {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "globalmenu globalmenu adarea"
+      "contextmenu maincontent adarea"
+      "contextmenu maincontent adarea"
+      "footer footer footer";
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+}
