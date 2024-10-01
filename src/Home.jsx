@@ -11,6 +11,7 @@ export default function Home() {
         <Link to="/AT03">AT03 - Layout com Flex, Justify e Align</Link>
         <Link to="/AT04">AT04 - Layout com CSS Grid</Link>
         <Link to="/AT05">AT05 - Layout Responsivo</Link>
+        <Link to="/AT06">AT06 - Lista de Compras</Link>
       </div>
     </div>
   );

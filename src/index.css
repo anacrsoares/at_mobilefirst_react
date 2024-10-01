@@ -6,6 +6,22 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
   --dark-detail-color: #101010;
+  --dark-font-color: #333;
+  --background: #f5deb3; /* Dourado Queijo */
+  --card-background: #ffffff; /* Branco */
+  --font-color: #333333; /* Texto Escuro */
+  --highlight-color: #4800ff; /* Amarelo Ipê */
+  --border-color: #d2691e; /* Vermelho Goiabada */
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme {
+  --background: #333333; /* Fundo Escuro */
+  --card-background: #444444; /* Fundo dos Cards Escuro */
+  --font-color: #f5deb3; /* Texto Claro (Dourado) */
+  --highlight-color: #ffdf00; /* Amarelo Ipê para Destaques */
+  --border-color: #d2691e; /* Vermelho Goiabada */
+  --shadow-color: rgba(255, 255, 255, 0.2);
 }
 
 * {
