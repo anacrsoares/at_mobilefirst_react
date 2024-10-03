@@ -13,10 +13,10 @@ export default function Home() {
         <Link to="/AT05">AT05 - Layout Responsivo</Link>
         <Link to="/AT06">AT06 - Lista de Compras</Link>
         <Link to="/AT07">AT07 - Tarefas Empregados</Link>
-        <Link to="/AT08">AT08 - </Link>
-        <Link to="/AT09">AT09 - </Link>
-        <Link to="/AT10">AT10 - </Link>
-        <Link to="/AT11">AT11 - </Link>
+        <Link to="/AT08">AT08 - Responsividade com Styled-components</Link>
+        <Link to="/AT09">AT09 - Menu Expansível</Link>
+        <Link to="/AT10">AT10 - Menu Responsivo</Link>
+        <Link to="/AT11">AT11 - Página Responsiva</Link>
         <Link to="/AT12">AT12 - </Link>
         <Link to="/AT13">AT13 - </Link>
         <Link to="/AT14">AT14 - </Link>

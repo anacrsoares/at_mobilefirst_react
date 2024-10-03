@@ -12,6 +12,10 @@ import LayoutGrid from "./AT04/LayoutGrid";
 import LayoutResponsivo from "./AT05/LayoutResponsivo";
 import ListadeCompras from "./AT06/ListadeCompras";
 import TasksEmployee from "./AT07/TasksEmployee";
+import TasksResponsive from "./AT08/TasksResponsive";
+import MenuExpansivel from "./AT09/MenuExpansivel";
+import MenuResponsivo from "./AT10/MenuResponsivo";
+import PaginaResponsiva from "./AT11/PaginaResponsiva";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -25,10 +29,10 @@ createRoot(document.getElementById("root")).render(
         <Route path="/AT05" element={<LayoutResponsivo />} />
         <Route path="/AT06" element={<ListadeCompras />} />
         <Route path="/AT07" element={<TasksEmployee />} />
-        <Route path="/AT08" element={<TasksEmployee />} />
-        <Route path="/AT09" element={<TasksEmployee />} />
-        <Route path="/AT10" element={<TasksEmployee />} />
-        <Route path="/AT11" element={<TasksEmployee />} />
+        <Route path="/AT08" element={<TasksResponsive />} />
+        <Route path="/AT09" element={<MenuExpansivel />} />
+        <Route path="/AT10" element={<MenuResponsivo />} />
+        <Route path="/AT11" element={<PaginaResponsiva />} />
         <Route path="/AT12" element={<TasksEmployee />} />
         <Route path="/AT13" element={<TasksEmployee />} />
         <Route path="/AT14" element={<TasksEmployee />} />
