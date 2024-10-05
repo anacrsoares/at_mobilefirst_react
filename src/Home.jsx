@@ -18,7 +18,7 @@ export default function Home() {
         <Link to="/AT10">AT10 - Menu Responsivo</Link>
         <Link to="/AT11">AT11 - Página Responsiva</Link>
         <Link to="/AT12">AT12 - </Link>
-        <Link to="/AT13">AT13 - </Link>
+        <Link to="/AT13">AT13 - App Quiz</Link>
         <Link to="/AT14">AT14 - </Link>
         <Link to="/AT15">AT15 - </Link>
         <Link to="/AT16">AT16 - </Link>

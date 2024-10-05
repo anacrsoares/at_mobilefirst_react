@@ -10,7 +10,8 @@
   --background: #f5deb3; /* Dourado Queijo */
   --card-background: #ffffff; /* Branco */
   --font-color: #333333; /* Texto Escuro */
-  --highlight-color: #4800ff; /* Amarelo Ipê */
+  --highlight-color: #646cff; /* Amarelo Ipê */
+  --highlight-hover: #747bff;
   --border-color: #d2691e; /* Vermelho Goiabada */
   --shadow-color: rgba(0, 0, 0, 0.2);
 }

@@ -16,6 +16,7 @@ import TasksResponsive from "./AT08/TasksResponsive";
 import MenuExpansivel from "./AT09/MenuExpansivel";
 import MenuResponsivo from "./AT10/MenuResponsivo";
 import PaginaResponsiva from "./AT11/PaginaResponsiva";
+import AppQuiz from "./AT13/AppQuiz";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -34,7 +35,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/AT10" element={<MenuResponsivo />} />
         <Route path="/AT11" element={<PaginaResponsiva />} />
         <Route path="/AT12" element={<TasksEmployee />} />
-        <Route path="/AT13" element={<TasksEmployee />} />
+        <Route path="/AT13" element={<AppQuiz />} />
         <Route path="/AT14" element={<TasksEmployee />} />
         <Route path="/AT15" element={<TasksEmployee />} />
         <Route path="/AT16" element={<TasksEmployee />} />
